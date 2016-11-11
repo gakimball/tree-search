@@ -1,0 +1,29 @@
+{
+  "name": "tree-search",
+  "version": "1.0.0",
+  "description": "Create a function to search a tree of items",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/tree-search.git"
+  },
+  "keywords": [
+    "tree",
+    "search",
+    "json",
+    "recursive"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/tree-search/issues"
+  },
+  "homepage": "https://github.com/gakimball/tree-search#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
