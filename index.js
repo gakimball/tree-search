@@ -1,10 +1,12 @@
+'use strict';
+
 /**
  * Create a finder function to locate an item in a nested tree with a specific structure.
  * @param {String} subKey - Property on an item that will contain nested items.
  * @param {String} [idKey] - Object key to always search against when running the created finder function.
  * @returns {Finder} Finder function.
  */
-module.exports = function findById(subKey, idKey = null) {
+module.exports = function findById(subKey, idKey) {
   /**
    * Find the first item in a nested tree with a specific key/value pair.
    * @param {Object[]} items - Tree to search.
