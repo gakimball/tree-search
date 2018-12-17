@@ -1,6 +1,6 @@
 {
   "name": "tree-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a function to search a tree of items",
   "main": "index.js",
   "scripts": {
