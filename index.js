@@ -32,6 +32,7 @@ module.exports = function findById(subKey, idKey) {
       for (let item of items) {
         if (item[subKey] && item[subKey].length > 0) {
           foundValue = finder(item[subKey], id, val);
+          if (typeof foundValue !== 'undefined') break;
         }
       }
     }

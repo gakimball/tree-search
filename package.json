@@ -1,7 +1,7 @@
 {
   "name": "tree-search",
-  "version": "1.0.0",
-  "description": "Create a function to search a tree of items",
+  "version": "1.0.1",
+  "description": "Create a function to search a tree of items. Published to ymm registry because the author won't maintain the project any more",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
