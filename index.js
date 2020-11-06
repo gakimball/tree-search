@@ -24,6 +24,7 @@ module.exports = function findById(subKey, idKey) {
       if (item[id] === val) {
         foundValue = item;
         break;
+      } else {
       }
     }
 
@@ -32,6 +33,9 @@ module.exports = function findById(subKey, idKey) {
       for (let item of items) {
         if (item[subKey] && item[subKey].length > 0) {
           foundValue = finder(item[subKey], id, val);
+          if (foundValue) {
+            break;
+          }
         }
       }
     }
