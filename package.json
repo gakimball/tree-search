@@ -24,7 +24,7 @@
   "homepage": "https://github.com/gakimball/tree-search#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "mocha": "^8.2.1"
   },
   "engines": {
     "node": ">=4"
